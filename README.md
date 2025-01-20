@@ -1,0 +1,3 @@
+# Intermittent JSON Parsing Failure in Express.js
+
+This repository demonstrates a common issue in Express.js applications where JSON request bodies are not consistently parsed, leading to `req.body` being undefined.  The problem is often subtle and difficult to debug due to its intermittent nature.  The solution provided focuses on ensuring proper middleware configuration and handling potential errors.
